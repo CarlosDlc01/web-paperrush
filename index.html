@@ -1,18 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>PaperRush</title>
+    <meta charset="UTF-8">
+    <title>PaperRush - Airborne Lab Games</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-        a { text-decoration: none; color: #007BFF; margin: 0 15px; }
+        body {
+            background-color: #3fd1eb;
+            font-family: Arial, sans-serif;
+            color: #0f172a;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+        header {
+            width: 100%;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+            background: #facc15;
+            padding: 5px 12px;
+            border-radius: 4px;
+            letter-spacing: 1px;
+        }
+        .subtitle {
+            margin-left: 15px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .content {
+            margin: auto;
+        }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        .links {
+            margin-top: 30px;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 25px;
+            transition: opacity 0.2s;
+        }
+        a:hover {
+            opacity: 0.7;
+        }
+        footer {
+            padding: 20px;
+            font-size: 14px;
+            color: #0f172a;
+        }
     </style>
 </head>
 <body>
-    <h1>PaperRush</h1>
-    <p>Welcome to the official website of PaperRush.</p>
-    <div style="margin-top: 30px;">
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <a href="terms-and-conditions.html">Terms and Conditions</a>
+    <header>
+        <div class="logo-text">PAPERRUSH</div>
+        <div class="subtitle">by Airborne Lab Games</div>
+    </header>
+    
+    <div class="content">
+        <div class="links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-and-conditions.html">Terms and Conditions</a>
+        </div>
     </div>
+
+    <footer>
+        © 2026 Airborne Lab Games. All Rights Reserved.
+    </footer>
 </body>
 </html>
